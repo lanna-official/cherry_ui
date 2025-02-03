@@ -1,14 +1,3 @@
---[[
-
-	Rayfield Interface Suite
-	by Sirius
-
-	shlex | Designing + Programming
-	iRay  | Programming
-	Max   | Programming
-
-]]
-
 if debugX then
 	warn('Initialising Rayfield')
 end
@@ -16,7 +5,7 @@ end
 local requestsDisabled = getgenv and getgenv().DISABLE_RAYFIELD_REQUESTS
 local InterfaceBuild = '3K3W'
 local Release = "Build 1.671"
-local RayfieldFolder = "Rayfield"
+local RayfieldFolder = "CherryUI"
 local ConfigurationFolder = RayfieldFolder.."/Configurations"
 local ConfigurationExtension = ".rfld"
 local settingsTable = {

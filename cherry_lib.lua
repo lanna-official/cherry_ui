@@ -207,45 +207,52 @@ local RayfieldLibrary = {
 		},
 
 		Cherry = {
-			TextColor = Color3.fromRGB(255, 240, 240), -- Soft light pink text color
+			TextColor = Color3.fromRGB(255, 235, 235), -- Soft pastel pink text color for a baby-like feel
 
-			Background = Color3.fromRGB(255, 182, 193), -- Light cherry blossom pink
-			Topbar = Color3.fromRGB(255, 105, 180), -- Soft hot pink
-			Shadow = Color3.fromRGB(255, 160, 160), -- Soft cherry shadow effect
+			Background = Color3.fromRGB(255, 239, 245), -- Soft pastel cherry blossom pink background
+			Topbar = Color3.fromRGB(255, 182, 193), -- Light bubblegum pink for the topbar
+			Shadow = Color3.fromRGB(255, 224, 231), -- Very soft pink shadow for a light dreamy look
 
-			NotificationBackground = Color3.fromRGB(255, 228, 225), -- Very light pink for notifications
-			NotificationActionsBackground = Color3.fromRGB(255, 182, 193), -- Matches the background
+			NotificationBackground = Color3.fromRGB(255, 228, 225), -- Baby-soft pastel pink for notifications
+			NotificationActionsBackground = Color3.fromRGB(255, 193, 204), -- A light pastel purple-pink for action buttons
 
-			TabBackground = Color3.fromRGB(255, 150, 150), -- Light cherry pink tab background
-			TabStroke = Color3.fromRGB(255, 128, 128), -- Slightly darker cherry pink for the tab stroke
-			TabBackgroundSelected = Color3.fromRGB(255, 0, 50), -- Bold cherry red for selected tab
-			TabTextColor = Color3.fromRGB(255, 240, 240), -- Light pink text color for tabs
-			SelectedTabTextColor = Color3.fromRGB(255, 255, 255), -- White text for selected tab
+			TabBackground = Color3.fromRGB(255, 204, 217), -- Soft baby pink tab background
+			TabStroke = Color3.fromRGB(255, 164, 174), -- Light cherry pink stroke for tabs
+			TabBackgroundSelected = Color3.fromRGB(255, 105, 180), -- Sweet cotton candy pink for the selected tab
+			TabTextColor = Color3.fromRGB(255, 240, 240), -- Lightest baby pink text color for tab
+			SelectedTabTextColor = Color3.fromRGB(255, 255, 255), -- Pure white for selected tab text
 
-			ElementBackground = Color3.fromRGB(255, 182, 193), -- Soft cherry pink for elements
-			ElementBackgroundHover = Color3.fromRGB(255, 105, 180), -- Hover effect darker cherry pink
-			SecondaryElementBackground = Color3.fromRGB(255, 240, 240), -- Light blush for secondary elements
-			ElementStroke = Color3.fromRGB(255, 128, 128), -- Cherry red stroke for elements
-			SecondaryElementStroke = Color3.fromRGB(255, 182, 193), -- Matching light pink for secondary elements
+			ElementBackground = Color3.fromRGB(255, 218, 228), -- Light baby blush for the element background
+			ElementBackgroundHover = Color3.fromRGB(255, 182, 193), -- Lighter, almost pastel pink hover effect
+			SecondaryElementBackground = Color3.fromRGB(255, 240, 250), -- Softest pastel pink for secondary elements
+			ElementStroke = Color3.fromRGB(255, 182, 204), -- Soft cherry pink stroke for elements
+			SecondaryElementStroke = Color3.fromRGB(255, 230, 240), -- Very light pink stroke for secondary elements
 
-			SliderBackground = Color3.fromRGB(255, 99, 71), -- Cherry red slider background
-			SliderProgress = Color3.fromRGB(255, 69, 0), -- Bright red for slider progress
-			SliderStroke = Color3.fromRGB(255, 160, 122), -- Lighter stroke for the slider
+			SliderBackground = Color3.fromRGB(255, 182, 193), -- Pastel peach-pink for slider background
+			SliderProgress = Color3.fromRGB(255, 85, 150), -- Soft but bright pink progress
+			SliderStroke = Color3.fromRGB(255, 213, 213), -- Light peachy stroke to match the softness
 
-			ToggleBackground = Color3.fromRGB(255, 240, 240), -- Soft pink toggle background
-			ToggleEnabled = Color3.fromRGB(255, 105, 180), -- Hot pink when enabled
-			ToggleDisabled = Color3.fromRGB(255, 182, 193), -- Lighter pink for disabled
-			ToggleEnabledStroke = Color3.fromRGB(255, 20, 147), -- Bold pink stroke when enabled
-			ToggleDisabledStroke = Color3.fromRGB(255, 240, 240), -- Very soft pink stroke for disabled
-			ToggleEnabledOuterStroke = Color3.fromRGB(255, 0, 50), -- Outer cherry red stroke
-			ToggleDisabledOuterStroke = Color3.fromRGB(255, 182, 193), -- Outer light cherry pink stroke
+			ToggleBackground = Color3.fromRGB(255, 240, 240), -- Baby soft pink toggle background
+			ToggleEnabled = Color3.fromRGB(255, 204, 255), -- Super soft lavender-pink for enabled toggle
+			ToggleDisabled = Color3.fromRGB(255, 229, 236), -- Lighter pastel pink for disabled toggle
+			ToggleEnabledStroke = Color3.fromRGB(255, 170, 255), -- Gentle lilac pink stroke when enabled
+			ToggleDisabledStroke = Color3.fromRGB(255, 240, 240), -- Pale pink stroke for disabled toggle
+			ToggleEnabledOuterStroke = Color3.fromRGB(255, 128, 230), -- Soft purple-pink outer stroke
+			ToggleDisabledOuterStroke = Color3.fromRGB(255, 210, 225), -- Light pastel purple outer stroke for disabled
 
-			DropdownSelected = Color3.fromRGB(255, 128, 128), -- Light red for selected dropdown
-			DropdownUnselected = Color3.fromRGB(255, 182, 193), -- Light pink for unselected dropdown
+			DropdownSelected = Color3.fromRGB(255, 178, 185), -- Sweet soft cherry-pink for selected dropdown
+			DropdownUnselected = Color3.fromRGB(255, 234, 245), -- Lightest pastel pink for unselected dropdown
 
-			InputBackground = Color3.fromRGB(255, 240, 240), -- Soft blush pink for input fields
-			InputStroke = Color3.fromRGB(255, 128, 128), -- Cherry red stroke for input fields
-			PlaceholderColor = Color3.fromRGB(255, 105, 180), -- Light hot pink for placeholder text
+			InputBackground = Color3.fromRGB(255, 240, 240), -- Soft pastel blush pink for input background
+			InputStroke = Color3.fromRGB(255, 193, 204), -- Subtle light pink stroke for the input fields
+			PlaceholderColor = Color3.fromRGB(255, 160, 195), -- Soft pastel peach placeholder text color
+
+			ButtonBackground = Color3.fromRGB(255, 198, 210), -- Gentle, baby pink background for buttons
+			ButtonStroke = Color3.fromRGB(255, 169, 185), -- Very light cherry red for the button stroke
+			ButtonHoverBackground = Color3.fromRGB(255, 240, 255), -- Light, cotton candy hover effect for buttons
+			ButtonTextColor = Color3.fromRGB(255, 240, 240), -- Soft pastel white text for buttons
+			ButtonDisabledBackground = Color3.fromRGB(255, 234, 240), -- Softest pastel pink for disabled buttons
+			ButtonDisabledTextColor = Color3.fromRGB(255, 210, 220), -- Pale pink text when button is disabled
 		},
 
 		Ocean = {

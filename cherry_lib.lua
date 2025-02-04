@@ -206,6 +206,48 @@ local RayfieldLibrary = {
 			PlaceholderColor = Color3.fromRGB(178, 178, 178)
 		},
 
+		Cherry = {
+			TextColor = Color3.fromRGB(255, 240, 240), -- Soft light pink text color
+
+			Background = Color3.fromRGB(255, 182, 193), -- Light cherry blossom pink
+			Topbar = Color3.fromRGB(255, 105, 180), -- Soft hot pink
+			Shadow = Color3.fromRGB(255, 160, 160), -- Soft cherry shadow effect
+
+			NotificationBackground = Color3.fromRGB(255, 228, 225), -- Very light pink for notifications
+			NotificationActionsBackground = Color3.fromRGB(255, 182, 193), -- Matches the background
+
+			TabBackground = Color3.fromRGB(255, 150, 150), -- Light cherry pink tab background
+			TabStroke = Color3.fromRGB(255, 128, 128), -- Slightly darker cherry pink for the tab stroke
+			TabBackgroundSelected = Color3.fromRGB(255, 0, 50), -- Bold cherry red for selected tab
+			TabTextColor = Color3.fromRGB(255, 240, 240), -- Light pink text color for tabs
+			SelectedTabTextColor = Color3.fromRGB(255, 255, 255), -- White text for selected tab
+
+			ElementBackground = Color3.fromRGB(255, 182, 193), -- Soft cherry pink for elements
+			ElementBackgroundHover = Color3.fromRGB(255, 105, 180), -- Hover effect darker cherry pink
+			SecondaryElementBackground = Color3.fromRGB(255, 240, 240), -- Light blush for secondary elements
+			ElementStroke = Color3.fromRGB(255, 128, 128), -- Cherry red stroke for elements
+			SecondaryElementStroke = Color3.fromRGB(255, 182, 193), -- Matching light pink for secondary elements
+
+			SliderBackground = Color3.fromRGB(255, 99, 71), -- Cherry red slider background
+			SliderProgress = Color3.fromRGB(255, 69, 0), -- Bright red for slider progress
+			SliderStroke = Color3.fromRGB(255, 160, 122), -- Lighter stroke for the slider
+
+			ToggleBackground = Color3.fromRGB(255, 240, 240), -- Soft pink toggle background
+			ToggleEnabled = Color3.fromRGB(255, 105, 180), -- Hot pink when enabled
+			ToggleDisabled = Color3.fromRGB(255, 182, 193), -- Lighter pink for disabled
+			ToggleEnabledStroke = Color3.fromRGB(255, 20, 147), -- Bold pink stroke when enabled
+			ToggleDisabledStroke = Color3.fromRGB(255, 240, 240), -- Very soft pink stroke for disabled
+			ToggleEnabledOuterStroke = Color3.fromRGB(255, 0, 50), -- Outer cherry red stroke
+			ToggleDisabledOuterStroke = Color3.fromRGB(255, 182, 193), -- Outer light cherry pink stroke
+
+			DropdownSelected = Color3.fromRGB(255, 128, 128), -- Light red for selected dropdown
+			DropdownUnselected = Color3.fromRGB(255, 182, 193), -- Light pink for unselected dropdown
+
+			InputBackground = Color3.fromRGB(255, 240, 240), -- Soft blush pink for input fields
+			InputStroke = Color3.fromRGB(255, 128, 128), -- Cherry red stroke for input fields
+			PlaceholderColor = Color3.fromRGB(255, 105, 180), -- Light hot pink for placeholder text
+		},
+
 		Ocean = {
 			TextColor = Color3.fromRGB(230, 240, 240),
 
@@ -1531,8 +1573,8 @@ function RayfieldLibrary:CreateWindow(Settings)
 			while true do
 				task.wait(math.random(180, 600))
 				RayfieldLibrary:Notify({
-					Title = "Rayfield Interface",
-					Content = "Enjoying this UI library? Find it at sirius.menu/discord",
+					Title = "Cherry UI",
+					Content = "Enjoying this script? Find it at .gg/ARXNVT4TJy",
 					Duration = 7,
 					Image = 4370033185,
 				})

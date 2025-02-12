@@ -17,8 +17,8 @@ local settingsTable = {
 
 	},
 	System = {
-		usageAnalytics = {Type = 'toggle', Value = true, Name = 'Anonymised Analytics'},
-		autoUpdate = {Type = "toggle", value = true, Name = "Auto Update"},
+		usageAnalytics = {Type = 'toggle', Value = false, Name = 'Anonymised Analytics'},
+		autoUpdate = {Type = "toggle", value = false, Name = "Auto Update"},
 	}
 }
 

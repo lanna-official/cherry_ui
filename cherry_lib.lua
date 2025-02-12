@@ -1430,14 +1430,14 @@ local function createSettings(window)
 		return
 	end
 
-	local newTab = window:CreateTab('Rayfield Settings', 0, true)
+	local newTab = window:CreateTab('Cherry Settings', 0, true)
 
-	if TabList['Rayfield Settings'] then
-		TabList['Rayfield Settings'].LayoutOrder = 1000
+	if TabList['Cherry Settings'] then
+		TabList['Cherry Settings'].LayoutOrder = 1000
 	end
 
-	if Elements['Rayfield Settings'] then
-		Elements['Rayfield Settings'].LayoutOrder = 1000
+	if Elements['Cherry Settings'] then
+		Elements['Cherry Settings'].LayoutOrder = 1000
 	end
 
 	-- Create sections and elements
@@ -3564,7 +3564,7 @@ if Topbar:FindFirstChild('Settings') then
 				end
 			end
 
-			Elements.UIPageLayout:JumpTo(Elements['Rayfield Settings'])
+			Elements.UIPageLayout:JumpTo(Elements['Cherry Settings'])
 		end)
 	end)
 
